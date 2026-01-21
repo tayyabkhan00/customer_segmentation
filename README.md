@@ -68,11 +68,11 @@ EDA was performed using Seaborn and Matplotlib.
 
 # 📌 Clustering Results
 
-After applying PCA and K-Means:
+### After applying PCA and K-Means:
 - Clusters are clearly separated
 - Customer groups are easy to interpret
 - Business insights become actionable<br>
-Example Customer Segments:
+### Example Customer Segments:
 - High income – High spending (Premium customers)
 - High income – Low spending
 - Low income – High spending

@@ -8,6 +8,8 @@ Using PCA (Principal Component Analysis) and K-Means clustering, customers are g
 
 The project also includes advanced data visualization using Seaborn and an interactive Streamlit dashboard.
 
+### [tap to view](https://customersegmentation-cjgsi6zcsofuj3zempa2jm.streamlit.app/)
+
 # 🎯 Problem Statement
 
 Businesses often struggle to understand customer behavior from raw data.<br>

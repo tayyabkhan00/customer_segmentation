@@ -40,15 +40,15 @@ Features:
 
 # 🔁 Project Workflow
 
--1. Data Loading (CSV)
--2. Exploratory Data Analysis (EDA)
-- 3.Feature Scaling
-- 4.K-Means Clustering (Before PCA)
-- 5.PCA Transformation
-- 6.K-Means Clustering (After PCA)
-- 7.Cluster Visualization
-- 8.Business Interpretation
-- 9.Streamlit Deployment
+- Data Loading (CSV)
+- Exploratory Data Analysis (EDA)
+- Feature Scaling
+- K-Means Clustering (Before PCA)
+- PCA Transformation
+- K-Means Clustering (After PCA)
+- Cluster Visualization
+- Business Interpretation
+- Streamlit Deployment
 
 # 📊 Exploratory Data Analysis (EDA)
 
@@ -131,3 +131,5 @@ streamlit
 Tayyab Khan<br>
 BTech – AI & Data Science<br>
 Aspiring Data Scientist / ML Engineer 
+
+### ⭐ If you like this project, don’t forget to star the repository!

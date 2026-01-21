@@ -10,7 +10,7 @@ from sklearn.decomposition import PCA
 st.title("🛍️ Customer Segmentation Dashboard")
 
 # Load data
-df = pd.read_csv("/Users/tayyabkhan/python/customer_segmentation/data/train.csv")
+df = pd.read_csv("data/train.csv")
 df.rename(columns={
     'Annual Income (k$)': 'Income',
     'Spending Score (1-100)': 'Spending'

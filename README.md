@@ -91,6 +91,7 @@ streamlit run app.py
 
 # 📁 Project Structure
 
+```
 customer_segmentation_project/
 │
 ├── data/
@@ -100,7 +101,7 @@ customer_segmentation_project/
 ├── segmentation.py       # ML logic & EDA
 ├── requirements.txt
 └── README.md
-
+```
 
 # 🛠️ Technologies Used
 

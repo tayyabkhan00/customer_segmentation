@@ -63,5 +63,71 @@ EDA was performed using Seaborn and Matplotlib.
 - Reduces dimensionality
 - Removes multicollinearity
 - Improves cluster separation
-- Makes visualization easier (2D)
+- Makes visualization easier (2D)<br>
 ✔ PCA preserved most of the variance while simplifying the feature space.
+
+# 📌 Clustering Results
+
+After applying PCA and K-Means:
+- Clusters are clearly separated
+- Customer groups are easy to interpret
+- Business insights become actionable<br>
+Example Customer Segments:
+- High income – High spending (Premium customers)
+- High income – Low spending
+- Low income – High spending
+- Budget-conscious customers
+- Average spenders
+
+# 🌐 Streamlit Application
+
+An interactive Streamlit dashboard was built to:
+- Visualize clusters dynamically
+- Change number of clusters (K) using a slider
+- Display PCA-based segmentation in real time
+
+# ▶️ Run the App
+streamlit run app.py
+
+# 📁 Project Structure
+
+customer_segmentation_project/
+│
+├── data/
+│   └── mall_customers.csv
+│
+├── app.py                # Streamlit dashboard
+├── segmentation.py       # ML logic & EDA
+├── requirements.txt
+└── README.md
+
+
+# 🛠️ Technologies Used
+
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- Matplotlib & Seaborn
+- Streamlit
+
+# 📄 requirements.txt
+
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+
+# 📌 Key Takeaways
+
+- PCA significantly improves clustering visualization
+- K-Means works best after proper scaling
+- Unsupervised learning is powerful for business insights
+- Visualization is critical for interpretability
+
+# 👤 Author
+
+Tayyab Khan
+BTech – AI & Data Science
+Aspiring Data Scientist / ML Engineer 

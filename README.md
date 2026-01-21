@@ -40,8 +40,8 @@ Features:
 
 # 🔁 Project Workflow
 
-- 1.Data Loading (CSV)
-- 2.Exploratory Data Analysis (EDA)
+-1. Data Loading (CSV)
+-2. Exploratory Data Analysis (EDA)
 - 3.Feature Scaling
 - 4.K-Means Clustering (Before PCA)
 - 5.PCA Transformation
@@ -112,11 +112,11 @@ customer_segmentation_project/
 
 # 📄 requirements.txt
 
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
+pandas<br>
+numpy<br>
+scikit-learn<br>
+matplotlib<br>
+seaborn<br>
 streamlit
 
 # 📌 Key Takeaways
@@ -128,6 +128,6 @@ streamlit
 
 # 👤 Author
 
-Tayyab Khan
-BTech – AI & Data Science
+Tayyab Khan<br>
+BTech – AI & Data Science<br>
 Aspiring Data Scientist / ML Engineer 

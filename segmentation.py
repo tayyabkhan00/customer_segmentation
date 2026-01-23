@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
@@ -8,7 +9,11 @@ from sklearn.decomposition import PCA
 
 
 # Load dataset
-df = pd.read_csv("data/train.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "data", "train.csv")
+
+df = pd.read_csv(DATA_PATH)
+
 
 # Rename columns for ease
 df.rename(columns={

@@ -8,7 +8,7 @@ from sklearn.decomposition import PCA
 
 
 # Load dataset
-df = pd.read_csv("/Users/tayyabkhan/python/customer_segmentation/data/train.csv")
+df = pd.read_csv("data/train.csv")
 
 # Rename columns for ease
 df.rename(columns={
